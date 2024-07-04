@@ -10,6 +10,8 @@
     font-family: "Source Sans 3", sans-serif;
 }
 
+/* ============== Header ============== */
+
 .nav-icon{
     padding: 15px 20px;
     background: rgba(0, 0, 0, 0.395);
@@ -64,6 +66,9 @@ header .header-box a{
 header .header-box a:hover{
     background-color: #196d87;
 }
+
+/* ============== Header ============== */
+/* ============== Section ============== */
 
 .section-content{
     padding: 100px 0;
@@ -308,6 +313,9 @@ header .header-box a:hover{
     height: 100%;
 }
 
+/* ============== Section ============== */
+/* ============== Footer ============== */
+
 footer{
     padding: 80px 0;
     text-align: center;
@@ -343,3 +351,5 @@ footer .icon-list i{
 footer .icon-list i:hover{
     background-color: #196d87;
 }
+
+/* ============== Footer ============== */
