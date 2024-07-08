@@ -241,7 +241,7 @@ header{
 }
 
 .contact-section .form-div input{
-    padding: 24px 48px 24px 0px;
+    padding: 12px 48px 24px 0px;
     width: 100%;
     outline: none;
     font-size: 25px;
@@ -250,12 +250,23 @@ header{
     border-bottom: 1px solid #2c3e50;
 }
 
-
-
 .contact-section .form-div input:focus+label{
-    top: -85px;
+    top: 20px;
     left: 0;
     font-size: 15px;
+}
+
+
+
+/* .contact-section .form-div input:invalid+label{
+    top: 20px;
+    left: 0;
+    font-size: 15px;
+} */
+
+.contact-section .form-div .form-sec{
+    position: relative;
+    padding: 20px 0;
 }
 
 .contact-section .form-div input:focus{
@@ -263,14 +274,15 @@ header{
     border-bottom: 1px solid #2c3e50;
 }
 
+
 .contact-section .form-div label{
     font-size: 25px;
     color: #2c3e50;
-    position: absolute;
-    top: -60px;
+    top: 40px;
     left: 10px;
-    position: relative;
+    position: absolute;
     transition: 0.3s;
+    pointer-events: none; 
 
 }
 
@@ -280,18 +292,16 @@ header{
     outline: none;
     border: none;
     border-bottom: 1px solid #2c3e50;
+    padding: 24px 0;
 }
 
-.contact-section .form-div textarea:focus-visible+label{
-    top: -160px;
+.contact-section .form-div textarea:focus+label{
+    top: 20px;
     left: 0;
     font-size: 15px;
 }
 
-#messaLabel{
-    position: relative;
-    top: -150px;
-}
+
 
 .contact-section .form-div #btn{
     border: none;
