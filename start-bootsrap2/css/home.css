@@ -243,19 +243,19 @@ header{
 .contact-section .form-div input{
     padding: 24px 48px 24px 0px;
     width: 100%;
+    outline: none;
     font-size: 25px;
     border: none;
     margin: 10px 0;
     border-bottom: 1px solid #2c3e50;
 }
 
+
+
 .contact-section .form-div input:focus+label{
     top: -85px;
     left: 0;
     font-size: 15px;
-    
-    
-   
 }
 
 .contact-section .form-div input:focus{
@@ -277,6 +277,7 @@ header{
 .contact-section .form-div textarea{
     width: 100%;
     font-size: 25px;
+    outline: none;
     border: none;
     border-bottom: 1px solid #2c3e50;
 }
