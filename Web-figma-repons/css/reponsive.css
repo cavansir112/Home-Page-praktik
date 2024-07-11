@@ -1,0 +1,217 @@
+@media  (max-width: 1000px) {
+   
+  }
+
+  @media  (max-width: 960px) {
+    .container{
+        padding: 0 50px;
+    }
+
+    .header-text h1{
+      font-size: 36px;
+    }
+    
+    .header-text h2{
+        font-size: 28px;
+    }
+
+      .box-b{
+        width: calc(50% - 10px);
+    }
+
+    .courses-box .box-c{
+      width: calc(100% - 0px);
+      
+    }
+
+    .our-box{
+      width: calc(100% - 0px);
+    }
+    .plan-section .plan-box{
+      width: calc(100% - 0px);
+    }
+
+    .footer .footer-cont{
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .footer .footer-list{
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .partnyor-div .partnyor-box{
+      display: none;
+      
+    }
+
+    .partnyor-div .partnyor-box:nth-of-type(1),
+    .partnyor-div .partnyor-box:nth-of-type(2),
+    .partnyor-div .partnyor-box:nth-of-type(3),
+    .partnyor-div .partnyor-box:nth-of-type(4){
+      display: flex;
+      width: 25%;
+      
+    }
+
+  }
+
+  @media  (max-width: 780px) {
+        .navbar .navbar-list ul{
+            display: none;
+        }
+
+        .navbar .navbar-login #bars-icon{
+            display: block;
+        }
+
+        .header-text h1{
+          font-size: 16px;
+        }
+        
+        .header-text h2{
+            font-size: 24px;
+        }
+
+        .header-section{
+          padding: 50px 0;
+      }
+
+      .img-box img{
+        height: 500px;
+        margin: 50px 0;
+      }
+
+      .benefits-title .benifits-bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .benefits-title .benifits-bottom p{
+        width: 100%;
+        font-size: 16px;
+      }
+      
+      .benefits-title .benifits-bottom a{
+        padding: 14px 18px;
+        font-size: 14px;
+        margin-top: 20px;
+      }
+
+      .box-b{
+        width: calc(100% - 0px);
+      }
+
+      .courses-box{
+        margin-bottom: 50px;
+      }
+
+      .b-buttons a{
+        margin-top: 0 !important;
+      }
+
+      .b-buttons{
+        margin-top: 30px;
+      }
+
+      .footer .footer-list .footer-box{
+        width: 50%;
+        margin-bottom:40px ;
+      }
+
+      .partnyor-div{
+        padding: 10px;
+      }
+
+
+
+  }
+
+  @media  (max-width: 560px) {
+    .container{
+        padding: 0 20px;
+    }
+    
+    .header-text p{
+        font-size: 14px;
+    }
+
+    .img-box img{
+      height: 400px;
+      margin: 30px 0;
+    }
+
+    .header-section{
+        padding: 30px 0;
+    }
+
+    .courses-box .box-c .img-c-button span{ 
+      margin-right: 10px;
+      padding: 5px 10px;
+      border-radius: 2px;
+      border: 1px solid ;
+      font-size: 18px;
+      color: #4C4C4D;
+      border: 1px solid #F1F1F3;
+  }
+  
+    .courses-box .box-c .img-c-button h6{ 
+        font-size: 14px;
+    }
+    
+    .courses-box .box-c h6{
+        font-size: 18px;
+    }
+    
+    .courses-box .box-c p{
+        font-size: 14px;
+    }
+    
+    .courses-box .box-c a{
+        font-size: 16px;
+    }
+
+    .courses-box .box-c img{
+      height: 250px;
+    }
+
+    .our-box .our-bottom a {
+      padding: 10px 15px;
+      font-size: 16px;
+    }
+
+    .our-box .our-text p {
+      font-size: 14px;
+    }
+
+    .plan-section{
+      padding: 20px;
+     
+    }
+
+    .plan-section .plan-box .plan-list{
+      padding: 20px;
+    }
+
+    .plan-list ul li{
+      font-size: 14px;
+    }
+
+    .partnyor-div .partnyor-box:nth-of-type(4){
+      display: none;
+      
+    }
+
+
+    .partnyor-div .partnyor-box:nth-of-type(1),
+    .partnyor-div .partnyor-box:nth-of-type(2),
+    .partnyor-div .partnyor-box:nth-of-type(3){
+      display: flex;
+      width: 33.33%;
+      
+    }
+
+    
+  }
